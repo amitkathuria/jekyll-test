@@ -2,6 +2,9 @@ title: Amit Kathuria
 description: Thoughts, mostly short.
 permalink: /:title.html
 
+plugins:
+  - jekyll-feed
+
 defaults:
   - scope:
       path: ""
