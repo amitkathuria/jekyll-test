@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<article class="h-entry">
+  <p class="post-date"><a class="u-url" href="{{ page.url | relative_url }}"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time></a></p>
+  <div class="e-content">{{ content }}</div>
+  {% if page.source_url %}<p class="meta">Originally posted on <a class="u-syndication" href="{{ page.source_url }}" target="_blank" rel="noopener noreferrer">Mastodon</a></p>{% endif %}
+</article>

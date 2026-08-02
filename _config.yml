@@ -1,1 +1,10 @@
-theme: minima
+title: Amit Kathuria
+description: Thoughts, mostly short.
+permalink: /:title.html
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
